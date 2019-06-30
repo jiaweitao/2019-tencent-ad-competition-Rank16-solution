@@ -43,7 +43,29 @@
        产生的xgb与lgb带有中间特征的训练集  ./saved_features_data
        中间结果文件 ：  ./submission/目录
        最终结果文件:  ./submission.csv
-    由于数据量过大，我采样了历史日志文件作为原始输入
+
+    由于数据量过大，我采样了历史日志文件作为原始输入，上传至github
+    目录结构如下：
+    data
+    ├── chusai_statstic_data
+    │   └── group_data
+    ├── total_data
+    │   ├── BTest
+    │   │   ├── Btest_sample_bid.out
+    │   │   ├── Btest_select_request_20190424.out
+    │   │   └── BTest_tracklog_20190424.txt
+    │   ├── final_map_bid_opt.out
+    │   ├── map_ad_static.out
+    │   └── track_log
+    │       ├── track_log_20190410.out
+    │       └── track_log_20190415.out
+    ├── try_ad_id
+    │   └── group_train_data
+    ├── try_location_id
+    │   └── group_train_data
+    └── whole_ad_data
+
+
 环境配置：
     Anaconda 4.5.13, Python 3.6.2
 
